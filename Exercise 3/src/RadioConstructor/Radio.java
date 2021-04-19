@@ -25,7 +25,7 @@ public class Radio {
 		this.shellmaterial = r.nextLine();
 		r.nextLine();
 		System.out.println("Enter the bluetooth version");
-		this.bluetoothversion = r.nextInt();
+		this.bluetoothversion = r.nextDouble();
 		r.nextLine();
 		System.out.println("Enter weight of the radio");
 		this.weight = r.nextDouble();
