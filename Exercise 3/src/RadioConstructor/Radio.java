@@ -17,16 +17,12 @@ public class Radio {
 		
 		System.out.println("Enter radio model");
 		this.model = r.nextLine();
-		r.nextLine();
 		System.out.println("Enter radio colour");
-		this.colour = r.nextLine();
-		r.nextLine();		
+		this.colour = r.nextLine();	
 		System.out.println("Enter shellmaterial");
 		this.shellmaterial = r.nextLine();
-		r.nextLine();
 		System.out.println("Enter the bluetooth version");
 		this.bluetoothversion = r.nextDouble();
-		r.nextLine();
 		System.out.println("Enter weight of the radio");
 		this.weight = r.nextDouble();
 				
